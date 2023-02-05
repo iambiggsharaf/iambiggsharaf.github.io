@@ -1,0 +1,61 @@
+html {
+	scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    transition: 1s;
+}
+p{
+    color: wheat;
+}
+h1{
+    color: rgb(157, 157, 157);
+    font-size: 40px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.blocks{
+    
+    border: 4px solid rgb(128, 128, 128);
+    padding: 20px;
+    width: min-content;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgb(36, 36, 36);
+}
+
+img {
+    width: 400px;
+}
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(80, 138, 233);
+    font-family: 'Itim', cursive;
+    border: 1px solid rgb(206, 195, 231);
+    font-size: 20px;
+    color: black;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: rgb(74, 212, 230);
+    width: 120px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    transition: 1s;
+}
+a:hover{
+    color: wheat;
+    transform: 1s;
+}
+
+
+
